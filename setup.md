@@ -45,6 +45,12 @@ Project Setup
     webpack compile errors fix - update typescript from 2.0.10 to 2.1.6 - 2/12/2017
 
 
-4 -
+5 -
     removed "~" and "^" from package dependencies version number listed in package.json, to eliminate inadverdent updates when applying
     npm install command 
+
+6 -
+    added "fonts" folder and url-loader for fonts 
+
+7 -
+    added "styles" folder and app csss 

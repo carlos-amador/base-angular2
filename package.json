@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A webpack starter for Angular",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 8101",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
@@ -43,6 +43,7 @@
     "rimraf": "2.5.2",
     "style-loader": "0.13.1",
     "typescript": "2.1.6",
+    "url-loader": "^0.5.7",
     "webpack": "2.2.0",
     "webpack-dev-server": "2.2.0-rc.0",
     "webpack-merge": "2.4.0"
